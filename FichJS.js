@@ -18,4 +18,13 @@ this.ajouterProduit = function(prod){
     this.nom = nom; 
     this.commades = commades; 
 
+    //MOdification apres git log
+    
+    this.prixTotal = function ( ){
+        let tab;
+        for (let i = 0; i < array.length; i++) {
+            let m = this.commades[i];
+            tab[i] = m.Produit.prix;}
+            return tab;
+    }
  }
